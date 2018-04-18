@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+#myInput {
+   /* background-image: url('/Content/img/searchicon.png');*/ /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    /*border: 1px solid #ddd;*/ /* Add a grey border */
+    /*font-size: 18px;*/ /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 8px; /* Add padding */
+}
+
+
+#myTable tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#myTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#myTable tr:hover {
+    /* Add a grey background color to the table on hover */
+    background-color: #dfdfdf;
+}

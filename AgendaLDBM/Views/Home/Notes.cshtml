@@ -1,0 +1,21 @@
+﻿@model AgendaLDBM.Services.AgendaEntidad
+
+@{
+    ViewBag.Title = "Notes";
+}
+
+<h2 style="background-color: #4CAF50; color: white; padding-left:20px; margin-top:50px">Notas</h2>
+
+<div>
+    <h4 style="padding-left:20px">@Html.DisplayFor(model => model.Nombre) @Html.DisplayFor(model => model.Apellido)</h4>
+    <hr />
+
+    <div class="form-group" style="padding-left:20px">
+        <label for="nota">Notas:</label>
+        <textarea class="form-control" rows="5" id="nota" style="max-width:1100px; height:300px" readonly>@Html.DisplayFor(model => model.Notas)</textarea>
+    </div>
+</div>
+<p style="padding-left:20px">
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Volver a la lista", "Index")
+</p>
