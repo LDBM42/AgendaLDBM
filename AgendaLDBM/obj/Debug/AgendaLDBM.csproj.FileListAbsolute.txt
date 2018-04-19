@@ -78,6 +78,5 @@ E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\bin\EntityFramework.xml
 E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\bin\EntityFramework.SqlServer.xml
 E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\obj\Debug\AgendaLDBM.Migrations.Initial.resources
 E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\obj\Debug\AgendaLDBM.csproj.GenerateResource.cache
-E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\obj\Debug\AgendaLDBM.csprojResolveAssemblyReference.cache
 E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\obj\Debug\AgendaLDBM.csproj.CoreCompileInputs.cache
 E:\Documents\GitHub\AgendaLDBM\AgendaLDBM\obj\Debug\AgendaLDBM.csproj.CopyComplete
